@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies (none needed for static site)"
+  build:
+    commands:
+      - echo "Build started on `date`"
+      - echo "Nothing to compile, this is a static site"
+artifacts:
+  files:
+    - '**/*'
